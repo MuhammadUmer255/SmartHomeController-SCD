@@ -3,6 +3,8 @@ package Scdlabproject;
 import java.util.Arrays;
 import java.util.List;
 
+
+
 @SuppressWarnings("serial")
 class InvalidDeviceException extends RuntimeException {
     public InvalidDeviceException(String message) { super(message); }
